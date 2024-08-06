@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ece5de8548.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="loader">
+        <h1 class="reveal">
+          <span>WELCOME </span>
+          <span> TO </span>
+          <span> MY </span>
+          <span> PORTFOLIO </span>
+        </h1>
+      </div>
+      <div id="green"></div>
+      <div id="home">
+        <div class="nav">
+          <div class="logo">
+            <h1><a href="#">Manish Verma</a></h1>
+          </div>
+          <div class="links">
+            <a href="#"
+              >Home
+              <span class="line1"></span>
+              <span class="line2"></span>
+            </a>
+            <a href="#about"
+              >About
+              <span class="line1"></span>
+              <span class="line2"></span>
+            </a>
+            <a href="#skills"
+              >Skills
+              <span class="line1"></span>
+              <span class="line2"></span>
+            </a>
+            <a href="#project"
+              >Projects
+              <span class="line1"></span>
+              <span class="line2"></span>
+            </a>
+          </div>
+          <div class="button">
+            <div class="mask"></div>
+            <a href="#contact-form"
+              ><button>
+                Let's Talk<svg fill="none" viewBox="0 0 20 20">
+                  <path
+                    fill="#fff"
+                    d="M2.5 14.375V17.5h3.125l9.217-9.217-3.125-3.125L2.5 14.375Zm14.758-8.508a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0l-1.525 1.525 3.125 3.125 1.525-1.525Z"
+                  ></path>
+                </svg>
+              </button>
+            </a>
+          </div>
+
+          <span class="bars" onclick="bars()"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+
+          <div class="sidenav">
+            <div class="logo">
+              <h1>Manish Verma</h1>
+              <span class="xbar" onclick="xbars()"
+                ><i class="fa-solid fa-x"></i
+              ></span>
+            </div>
+
+            <div class="side-link">
+              <div class="side-links">
+                <li onclick="xbars()"><a href="#" onclick="xbars()">Home </a></li>
+                <li onclick="xbars()"><a href="#about">About </a></li>
+                <li onclick="xbars()"><a href="#skills">Skills </a></li>
+                <li onclick="xbars()"><a href="#project">Projects </a></li>
+                <li onclick="xbars()"><a href="#contact-form">Contact </a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="home-main">
+          <div class="home-left">
+            <img src="images/boy.png" alt="img" />
+          </div>
+          <div class="home-right">
+            <div class="text">
+              <h1><span class="pop">Manish Verma</span></h1>
+              <h3><span class="pop">Web Developer</span></h3>
+              <button class="resume">
+                <a href="#" download="">Resume <i class="fa-solid fa-file"></i></a>
+              </button>
+            </div>
+
+            <div class="socialinks">
+              <a class="linkedin" href="https://www.linkedin.com/in/manish-verma-56532722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class="github" href="https://github.com/ManishVerma4903">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="x" href="https://x.com/manishverma220">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="instagram" href="https://www.instagram.com/manishverma0322?igsh=ajI0Z2sxb3A1NnA0&utm_source=qr">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div id="about-main">
+        <h1 class="about-heading"><span>About</span></h1>
+        <div class="about-info">
+          <about class="about-left">
+            <h1><span>Hii,</span></h1>
+            <h1>
+              <span>I am <span class="auto-type"></span></span>
+            </h1>
+            <p>
+              <span
+                >Currently, I am an engineering student at ITS Engineering
+                College, Greater Noida and I am pursuing a Bachelor of
+                Technology (B.Tech) degree in computer science. My goal is to
+                establish myself as a software developer and expand my knowledge
+                and skills through ITS College. Technology is a top priority in
+                today's world and for the current generation. I am trying to
+                delve into the complexities of software engineering principles
+                and acquire proficiency in various programming languages.
+                Through my dedication to academic pursuits and staying attuned
+                to industry advancements, I believe I am on the path to carve
+                out a significant role in the dynamic realm of software
+                development.</span
+              >
+            </p>
+          </about>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div id="skill-main">
+        <div class="skill-heading">
+          <h1><span>Skills</span></h1>
+        </div>
+        <div class="skill-info">
+          <div class="skill-left">
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="text">
+                <h3>HTML</h3>
+                <h3 class="progress-num">90%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon"><i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="text">
+                <h3>CSS</h3>
+                <h3 class="progress-num">80%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="text">
+                <h3>JavaScript</h3>
+                <h3 class="progress-num">80%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div class="text">
+                <h3>React Js</h3>
+                <h3 class="progress-num">30%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-right">
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div class="text">
+                <h3>Java</h3>
+                <h3 class="progress-num">90%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress p1"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="text">
+                <h3>SQL</h3>
+                <h3 class="progress-num">70%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress p2"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-solid fa-c"></i>
+              </div>
+              <div class="text">
+                <h3>C</h3>
+                <h3 class="progress-num">95%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+            <div class="progress-detail">
+              <div class="icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <div class="text">
+                <h3>Problem Solving</h3>
+                <h3 class="progress-num">70%</h3>
+              </div>
+              <div class="progressbar">
+                <div class="progress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="project">
+      <div id="project-main">
+        <div class="project-heading">
+          <h1><span>Projects</span></h1>
+        </div>
+        <div class="project-info">
+          <div class="project-item">
+            <div class="project-img">
+              <img src="images/p1.png" alt="" />
+            </div>
+            <div class="title">
+              <h2><span>Portfolio</span></h2>
+            </div>
+            <div class="discription">
+              <span
+                >- Developed and currently manage a personal portfolio website. It is highlighting my expertise in web development, specifically in HTML, CSS, and JavaScript. The website serves as a professional showcase of my technical abilities, project experiences, and personal coding journey.</span
+              >
+            </div>
+            <div class="link">
+              <h2>
+                <a href="#"
+                  ><span
+                    >My Portfolio
+                    <i class="fa-solid fa-arrow-right-long"></i></span
+                ></a>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact-form">
+      <div id="form-heading">
+        <h1><span>Contact</span></h1>
+
+        
+      </div>
+      <h1 class="formdetail"> Form submitted.</h1>
+      
+      <div id="form-main">
+        <div class="left">
+          <img src="images/contact.png" alt="" />
+        </div>
+
+        <div class="right">
+          <div class="contact-form">
+            <form name="submit-to-google-sheet">
+              <div class="inputbox">
+                <input type="text" name="name" class="data" required="required" />
+                <span>Full Name</span>
+              </div>
+              <div class="inputbox">
+                <input type="email" name="email" class="data" required="required" />
+                <span>Email</span>
+              </div>
+              <div class="inputbox">
+                <textarea
+                  name="message"
+                  id="message" class="data"
+                  required="required"
+                ></textarea>
+                <span>Type your message......</span>
+              </div>
+              <div class="inputbox" onclick="clearform()">
+                <button  type="submit" name="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div> 
+
+
+
+     
+      
+    </div>
+
+    <div id="footer">
+      <h3>Thanks for visiting &hearts;</h3>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Manish Verma", "a Programmer", " a Web developer"],
+        typeSpeed: 150,
+        bacSpeed: 150,
+        loop: true,
+      });
+    </script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby5KyekWo0_zcJITUItAIkiWlLLjIdMOS9jVy_FW9rPbQ58sE5ZXzvIW7Wpu3EeACDx/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+      // setTimeout(formsubmit(),5000);
+      formsubmit();
+  
+  })
+</script>
+
+  </body>
+</html>
